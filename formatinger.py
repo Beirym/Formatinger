@@ -11,6 +11,9 @@ class EmailError(Exception):
 
 # /. Exceptions
 
+
+# Number formating
+
 def number(obj: str, hidden=False) -> str:
     '''Formating object to number form.
 
@@ -48,7 +51,11 @@ def number(obj: str, hidden=False) -> str:
 
     else:
         raise FormatingError('The passed object for formatting must be of type str')
+        
+# /. Number formating
 
+
+# E-Mail formating
 
 def email(obj: str) -> str:
     '''Formating email to hidden type.
@@ -75,3 +82,5 @@ def email(obj: str) -> str:
 
     else:
         raise FormatingError('The passed object for formatting must be of type str')
+        
+ # /. E-Mail formating
