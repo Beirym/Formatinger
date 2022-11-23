@@ -12,7 +12,7 @@ Formatinger accepts telephone number or E-Mail for formating to normal, hidden v
 If selected type of formating - "showed" to telephone number, then number symbols will be splited to sections. If hidden, then also symbols in zones - CCC and DD will be replaced to sign - "\*". In E-Mail all symbols except first and last will be replaced to sign - "\*"
 
 
-# What is needed for
+# What is useful for
 
 This script could use in softwares which collect users telephone numbers amd E-Mails for more beautiful displays.
 
